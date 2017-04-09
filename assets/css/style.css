@@ -1,0 +1,63 @@
+#menu {
+	list-style: none;
+}
+
+header, #about, #portfolio, #contact{
+	float:left;
+}
+header {
+	background-color: #4aaaa5;
+	color: white;
+	padding: 10px;
+	margin-left: 50px;
+}
+#about {
+	margin-left: 150px;
+	padding-top: 20px;
+}
+#portfolio {
+	margin-left: 20px;
+	padding-top: 20px;
+}
+#contact {
+	margin-left: 20px;
+	padding-top: 20px;
+}
+
+.wrapper {
+	clear: both;
+	background-color: grey;
+	/*background-image: url("assets/images/ep_naturalwhite.png");
+	background-repeat: repeat-x;
+	background-repeat: repeat-y;*/
+	height:500px;
+	border-color: #dddddd;
+	border-width:10px;
+}
+
+.rel {
+	position:absolute;
+}
+#aboutMe {
+	width: 500px;
+	height: 350px;
+	left: 100px;
+	top: 25%;
+	padding: 20px;
+	background-color: white;
+
+}
+
+#contactLogos {
+	width: 200px;
+	height: 150px;
+	top: 25%;
+	left: 800px;
+	padding: 20px;
+	background-color: white;
+}
+
+footer {
+	clear: both;
+	background-color: grey;
+}
