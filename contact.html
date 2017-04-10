@@ -3,8 +3,8 @@
 
 <head>
 	<meta charset="UTF-8">
-  <title>About Me Page</title>
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css"> 
+  <title>Contact Info Page</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/contact.css"> 
 </head>
 
 <body>
@@ -13,17 +13,27 @@
 	</header>
 
 	<ul id="menu">
-		<li id="about"><a href="#">About</a></li>
+		<li id="about"><a href="index.html">About</a></li>
 		<li id="portfolio"><a href="portfolio.html">Portfolio</a></li>
 		<li id="contact"><a href="contact.html">Contact</a></li>
 	</ul>
 
 	<div class="wrapper">
-		<div class="rel" id="aboutMe">
-			<h2>About Me</h2>
-			<img id="pic" src="assets/images/Anu.jpg">
-			<p id="text" >Nulla facilisi. In faucibus quis purus at scelerisque. Cras varius fringilla massa, in sagittis nulla feugiat semper. Etiam vitae urna ut sem finibus dictum. Fusce accumsan vestibulum venenatis. Quisque ipsum metus, aliquet vitae augue et, condimentum euismod tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In porttitor tortor non iaculis mollis. Vivamus consectetur ornare blandit. Maecenas in tincidunt arcu, in condimentum dolor. Integer euismod dignissim ex non dictum. Nunc elementum congue ligula lacinia mollis. Aliquam euismod scelerisque metus id porttitor. Pellentesque sed lacinia dui. Nullam tristique, magna vitae viverra tristique, quam est ornare tortor, eleifend sollicitudin turpis ex in nulla.
-			</p>
+		<div class="rel" id="info">
+			<h2>Contact</h2>
+			<form>
+				Name:<br>
+  				<input class="data" type="text" name="name" value="John Smith"><br>
+  				<br>
+  				Email:<br>
+  				<input class="data" type="email" name="email" value="example@gmail.com"><br>
+  				<br>
+  				Message:<br>
+  				<input id="mesg" type="textarea" name="message"<br>
+  				<br>
+  				<br>
+  				<input id="submit" type="submit" value="Submit">
+			</form>
 		</div>
 
 		<div class="rel" id="contactLogos">
