@@ -32,10 +32,7 @@ header {
 
 .wrapper {
 	clear: both;
-	background-color: lightgrey;
-	/*background-image: url("assets/images/ep_naturalwhite.png");
-	background-repeat: repeat-x;
-	background-repeat: repeat-y;*/
+	background-image: url("../../assets/images/ep_naturalwhite.png");
 	height:500px;
 	border-top: solid #dddddd;
 }
